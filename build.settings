@@ -1,0 +1,26 @@
+settings = {	
+	orientation = {
+		default = "landscape",
+		supported = { "landscape", }
+	},
+	
+	iphone = {
+		plist = {
+			UIStatusBarHidden = false,
+			UIPrerenderedIcon = false,
+      UIAppFonts =
+      {
+	      "AveriaLibre-Bold.ttf",
+      },
+		}
+	},
+
+  android =
+  {
+      versionCode = "10003",
+      usesPermissions =
+      {
+          "android.permission.INTERNET",
+      },
+  },
+}
